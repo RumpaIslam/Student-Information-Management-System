@@ -1,0 +1,90 @@
+<html>
+<body>
+<center style="width:60%; margin-left:20%;margin-right:20%;">
+<img src="seu.png">
+<div><marquee><h2>Welcome to our PHP and MYSQL Project!</h2></marquee></div>
+<form name="reg" action="save.php" method="post" enctype="multipart/form-data">
+<table border="0" bgcolor="#CCCCCC" cellpadding="15" margin="10">
+<tr>
+	<td>ID:</td>
+	<td><input type="text" name="sid" required><br>
+	
+	</td>
+</tr>
+<tr>
+	<td>Name:</td>
+	<td><input type="text" name="sn" required><br></td>
+</tr>
+<tr>
+	<td>Age:</td>
+	<td> <input type="number" name="sa" min="18" max="50" required>
+	 <br>
+	
+            
+	</td>	
+</tr>
+<tr>
+	<td><span>Sex: </span></td>
+	<td><input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female
+	</td>
+</tr>
+<tr>
+	<td><span>Country: </span></td>
+    <td><select name="co" required>
+	 <option value="">Select country</option>
+     <option value="Bangladesh">Bangladesh</option>
+     <option value="US">US</option>
+     <option value="Canada">Canada</option>
+     </select>
+	 </td>
+</tr>
+
+<tr>
+<td>Upload a picture:</td>
+<td><input type="file" name="image"> </td>
+</tr>
+</table>
+<br>
+
+<input type="submit" name="sb" value="Submit" style="background:#999999;color:#000000; border:thin;padding:10;" >
+
+
+</form>
+
+
+<hr>
+
+<h3>Search student info by ID:</h3>
+<form action="search.php" method="POST">
+<table border="0" bgcolor="#CCCCCC" cellpadding="5" >
+<tr>
+	<td>
+    <input type="text" name="valueToSearch" />
+    <input type="submit"  name="search" value="Search" />
+	</td>
+</tr>
+</table>
+</form>
+
+<table border="0">
+<tr>
+<td>
+<form name="delete" action="delete.php" method="post">
+<button style="background:#999999;color:#000000; border:thin;padding:10;">Delete info</button>
+</form>
+</td>
+<td>
+<form name="update" action="update.php" method="post">
+<button style="background:#999999;color:#000000; border:thin;padding:10;">Update info</button>
+</form>
+</td>
+</tr>
+</table>
+</center>
+
+
+
+
+</body>
+</html>
