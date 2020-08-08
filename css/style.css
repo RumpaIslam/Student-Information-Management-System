@@ -1,0 +1,290 @@
+*{
+font-family: sans-serif;
+padding: 0px;
+margin: 0 auto;
+}
+body{
+width:100%;
+padding: 0px;
+margin: 0 auto;
+}
+p{
+font-size:14px;
+clear:both;
+color:#000000;
+padding:2px;
+}
+#Blue_text{
+margin-top:20px;
+margin-bottom:20px;
+color:#295890;
+font-size:24px;
+font-weight:bold;
+
+
+}
+
+#Bold_text_blue{ /* for all heading*/
+margin-top:30px;
+margin-bottom:20px;
+color:#295890;
+font-weight:bold;
+font-size:30px;
+text-align: center;
+font-weight:bold;
+}
+#line{ /* line under heading */
+width:25px;
+height: 5px;
+background-color:#CCCCCC;
+border-radius:2px;
+margin-bottom: 50px;
+
+}
+
+
+
+#logo{ /* logo */
+float:left;
+width:150px;
+height:30px;
+margin-left:-5px;
+
+}
+
+#menu { /* menu*/
+width:100%;
+position:fixed;
+padding:6px;
+
+color:#FFFFFF;
+}
+#menu a {
+float:right;
+margin-right:10%;
+background:none;
+color:#FFFFFF;
+text-decoration: none;
+}
+#menu a:hover {
+padding:5px;
+color:#FFFFFF;
+border:2px solid #FFFFFF;
+border-radius:20px;
+}
+
+#header_area{ /* header container*/
+width:95%;
+background-image:url(../images/bg.jpg);
+background-repeat:no-repeat;
+background-size:100%;
+padding-left:5%;
+margin-right:0;
+padding-top:20px;
+padding-bottom: 200px;
+
+}
+
+
+#banner{
+width:50%;
+padding:10px 0px 10px;
+float:left;
+
+}
+
+
+
+
+
+#btn{ /* button on header area (Read more)*/
+
+background-color:#017DF7;
+font-size:14px;
+font-weight:bold;
+border:none;
+width:150px;
+padding:10px;
+border-radius:30px;
+color:#FFFFFF;
+
+}
+#btn:hover {
+background:#3291EF;
+color:#FFFFFF;
+border:none;
+}
+
+#more {display: none;}
+
+
+
+#about{/* About us div*/
+margin-top:40px;
+padding:20px;
+background-image:url(../images/about-us.png);
+background-repeat:no-repeat;
+background-size:100% ;
+color:#FFFFFF;
+text-align:center;
+
+}
+#about p{
+color:#FFFFFF;
+}
+#What_we_do{/* What_we_do container */
+background-image:url(../images/2.png);
+background-position:left;
+background-repeat:no-repeat;
+background-size:20% ;
+text-align:center;
+height:auto;
+padding:20px 14% 20px;
+margin-top:50px;
+margin-bottom:50px;
+
+}
+
+
+#box_what_we_do{/* box on what we do */
+padding:5px;
+background-color:#FFFFFF;
+margin:5px;;
+box-shadow: 5px 5px 10px #E4E4E4;
+
+}
+#box_what_we_do h5{
+color:#295890;
+size:10px;
+padding:10px;
+}
+
+#tool_container{/* Our Tools & Technologies section container*/
+width:100%;
+padding-left:20%;
+padding-right:20%;
+
+
+}
+#tools{ /* Our Tools & Technologies*/
+width:100%;
+}
+
+#Recent_work{ /* Our recent work container*/
+background-image:url(../images/Our-Recent-work.png);
+padding: 20px 10% 20px;
+}
+
+#Box_holder{ /* Our recent work box container*/
+background-color:#000000;
+padding:5%;
+background-color:#FFFFFF;
+border-radius:5px;
+
+width:100%;
+vertical-align:middle;
+
+}
+
+#box{ /* box on Our recent work*/
+padding:5px;
+background-color:#ECF1F7;
+margin:15px;;
+height:250px;
+
+}
+
+.btn{  /*button on Our recent work  #00B1FF,*/
+
+position:relative;
+border:hidden;
+left:35%;
+width:70%;
+background-image:linear-gradient(to bottom right,#00B1FF 35%,#0172FF 50%,#0001F3 80%);
+font-weight:bold;
+color:#FFFFFF;
+
+}
+
+.btn:hover{
+background-image:linear-gradient(to bottom right,#7AD3FA 30%,#5455F9 50%,#4142F7 80%);
+color:#FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Our_talented_team_members_container{
+
+width:100%;
+background-color:#F8F9FB;
+height:auto;
+padding:20px 10%;
+
+}
+
+#box_round1{ /*dashed box in our talented team section*/
+border: dashed 2px #448BC9;
+border-radius: 20px;
+margin-top:50px;
+padding:10px
+
+}
+
+#box_round2{ /*white rounded box in dashed box in our_talented_team section */
+border-radius: 20px;
+background-color:#FFFFFF;
+padding:10px;
+
+}
+
+
+#image_round{ /*round shaped image  in our_talented_team section */
+border-radius: 100%;
+background-color:#999999;
+width:150px;
+height:150px;
+
+}
+
+
+#footer_container{/*footer container*/
+margin: 50px 12% 50px;
+}
+
+footer_logo{
+width:100%;
+margin-right:50px;
+
+
+}
+
+#footer_div{ /* footer text section*/
+margin-left:30%;
+margin-right:15%;
+padding:10px;
+width:100%;
+text-align:right;
+
+}
+
+#footer_div a{
+font-weight:600;
+text-decoration:none;
+font-size:12px;
+color:#9396A5;
+}
+
+
+
